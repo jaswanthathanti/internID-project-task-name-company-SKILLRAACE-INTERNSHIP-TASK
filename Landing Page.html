@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url('https://wallpapercave.com/wp/wp2610910.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      font-family: Arial, sans-serif;
+      
+    }
+    .header {
+      background-image: url('https://static.vecteezy.com/system/resources/previews/000/664/751/original/vector-abstract-low-poly-banner-design.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #ffffff;
+      padding: 100px 0;
+      text-align: center;
+      height: auto;
+      width: 100%;
+    }
+    .features {
+      padding: 50px 0;
+    }
+    .feature {
+      text-align: center;
+    }
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    img:hover{
+        filter: grayscale(0);
+        opacity:100%;
+        border-radius: 30%;
+        height: 200px;
+    }
+    img{
+        filter:grayscale(70%);
+        border-radius: 10%; 
+        transition-duration: 1s;
+        opacity:0.9;
+
+    }
+
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      background-image: url('https://img.huffingtonpost.com/asset/59b765601c0000140079df54.jpg?ops=1778_1000');
+    }
+
+    li {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      
+    }
+
+    li:hover {
+      background-color: rgb(104, 102, 102);
+      transition: 1s;
+    }
+
+    li a{
+        color: rgb(255, 255, 255);
+    }
+    li a:hover{
+      color: white;
+    }
+
+    section div div div div p img:hover{
+      height: 280px;
+    }
+    section div h1{
+      font-size: clamp(1.5rem, 5vw, 3rem);
+    }
+  </style>
+  <script>
+
+  </script>
+</head>
+<body>
+  <div class="sticky">
+    <ul>
+      <li style="color: aqua;background-color: black;">skillRAAce</li>
+      <li ><a href="#">Home</a></li>
+      <li style="float: right;" ><a href="#">Login</a></li>
+    </ul>
+  </div>
+  
+
+  <!-- Header Section -->
+  <section class="header">
+    <div class="container-fluid">
+      <marquee direction="right">WELCOME TO skillRAAce</marquee>
+      <h1 style="font-size: 70px;color: rgb(17, 144, 255);">skillRAAce</h1>
+      <p style="font-size: 30px;color: #30d9ff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;way to ACHIEVE.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  
+  <section class="features">
+    <div class="container">
+        <h5 style="color:red;">GALLERY</h5>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="fas fa-mobile-alt feature-icon"></i>
+            <img  src="https://media.licdn.com/dms/image/D4E22AQFcYASb2O3kTA/feedshare-shrink_800/0/1708077543896?e=1716422400&v=beta&t=R97eTQrxN9V6fYeS_Lw9HhlMEAhZBRvAVhR6gJTj4JI"  height="170px" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="fas fa-cogs feature-icon"></i>
+            <p><img src="https://ufmpl.com/images/home/certificate-7.jpeg" height="200px" /></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <i class="fas fa-lock feature-icon"></i>
+            <img src="https://media.licdn.com/dms/image/D4E22AQFjsJIUTBMHXA/feedshare-shrink_1280/0/1708077352639?e=1716422400&v=beta&t=lWdbN7GXQ8CuZboGnSIb0cvrlYhKA-Nm4XrTCoeRfjY" height="170px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h5 style="color:red;">ABOUT THE PROGRAM</h5>
+    <p style="color: #ffffff;">We are seeking a talented and motivated individual to join our team as a Full Stack Web Development Intern.
+         This position offers an excellent opportunity for students or recent graduates with a passion for web development to apply their skills in a real-world setting.
+          The intern will work closely with our development team to support various projects, contribute to the design and implementation of web applications,
+           and gain exposure to both front-end and back-end development technologies.</p>
+    <center>
+    <a href="#" class="btn btn-primary btn-lg">TO APPLY</a>
+</center>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
